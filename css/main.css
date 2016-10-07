@@ -17,3 +17,28 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav a {
+  color: #0074d9;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
